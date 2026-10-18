@@ -7,3 +7,4 @@ El objetivo es congelar la ciudad de Metrópolis para detener el tiempo y preser
 1. **Preparación del equipo**:
 2. **Identificación de las áreas criticas**:
 3. **Activación del dispositivo de congelación**:
+4. **Monitorear el proceso**:
