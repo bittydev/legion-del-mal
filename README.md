@@ -1,12 +1,14 @@
 ![Estático](https://img.shields.io/badge/Legión_del_mal-Activa-brightgreen)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
-![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)
-![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff)
 ![Workflow](https://img.shields.io/github/actions/workflow/status/bittydev/legion-del-mal/ci.yml)
 ![Release](https://img.shields.io/github/v/release/bittydev/legion-del-mal)
 ![Issues](https://img.shields.io/github/issues/bittydev/legion-del-mal)
 ![Último commit](https://img.shields.io/github/last-commit/bittydev/legion-del-mal)
 ![Licencia](https://img.shields.io/github/license/bittydev/legion-del-mal)
+![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)
+![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
+![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff)
 
 # 🦹‍♂️ La Legión del Mal
 
