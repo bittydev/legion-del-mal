@@ -1,4 +1,7 @@
-![Estático](https://img.shields.io/badge/Legion_del_mal-Activa-brightgreen)
+![Estático](https://img.shields.io/badge/Legión_del_mal-Activa-brightgreen)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
+![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff)
 ![Workflow](https://img.shields.io/github/actions/workflow/status/bittydev/legion-del-mal/ci.yml)
 ![Release](https://img.shields.io/github/v/release/bittydev/legion-del-mal)
 ![Issues](https://img.shields.io/github/issues/bittydev/legion-del-mal)
