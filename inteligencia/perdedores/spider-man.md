@@ -15,6 +15,24 @@
 - Ingenio científico: crea dispositivos y encuentra soluciones sobre la marcha.
 - Gran perseverancia y sentido de responsabilidad; suele priorizar la seguridad de los demás.
 
+## Investigación: poderes y habilidades
+
+### Poderes
+
+- **Fuerza y resistencia aumentadas:** puede levantar objetos pesados y soportar impactos que dejarían fuera de combate a una persona común; sus límites varían según la historia.
+- **Agilidad y reflejos extraordinarios:** reacciona con rapidez, mantiene el equilibrio en superficies estrechas y realiza maniobras acrobáticas.
+- **Adherencia a superficies:** puede trepar y desplazarse por paredes y techos gracias a su capacidad de adherirse a distintas superficies.
+- **Sentido arácnido:** una alerta instintiva le advierte de peligros cercanos. No siempre le indica exactamente qué amenaza se aproxima, pero le permite reaccionar con rapidez.
+- **Percepción y coordinación mejoradas:** sus sentidos y coordinación contribuyen a que pueda esquivar ataques y moverse con precisión.
+
+### Habilidades y equipo
+
+- **Lanzatelarañas:** en muchas versiones son dispositivos diseñados por Peter Parker que disparan una sustancia adhesiva ficticia. Algunas continuidades presentan telarañas orgánicas.
+- **Ingenio científico:** aplica conocimientos de ciencia e ingeniería para crear equipo y resolver problemas.
+- **Improvisación y estrategia:** observa el entorno, identifica oportunidades y adapta su enfoque durante situaciones cambiantes.
+- **Combate acrobático:** combina movilidad, reflejos y telarañas para mantener distancia, esquivar y contener a sus adversarios.
+- **Responsabilidad y empatía:** su prioridad suele ser proteger a otras personas, incluso cuando eso limita sus opciones.
+
 ## Principales enemigos
 
 | Enemigo | Identidad o alias | Perfil |
