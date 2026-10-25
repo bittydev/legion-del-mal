@@ -10,7 +10,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff)
 
-# 🦹‍♂️ La Legión del Mal - Maldad Pura
+# 🦹‍♂️ La Legión del Mal
 
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
 > — Lex Luthor, fundador
