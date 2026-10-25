@@ -12,6 +12,8 @@
 
 # 🦹‍♂️ La Legión del Mal - Desde Local
 
+### Este es un grupo dedicado a aprender Git + GitHub
+
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
 > — Lex Luthor, fundador
 
