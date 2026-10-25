@@ -44,6 +44,16 @@
 | Sandman | Flint Marko | Puede transformar su cuerpo en arena y adoptar distintas formas. A veces es un adversario y otras un personaje con motivaciones más complejas. |
 | Buitre | Adrian Toomes | Inventor y acróbata aéreo que utiliza equipo de vuelo ficticio. Es uno de los rivales recurrentes de Spider-Man. |
 
+## Aliados y personas cercanas
+
+| Persona | Relación con Peter Parker | Información relevante |
+| ------- | ------------------------- | --------------------- |
+| Mary Jane Watson | Pareja, amiga cercana o confidente, según la etapa | Actriz y modelo en varias versiones, además de una persona independiente y decidida. Su relación con Peter se caracteriza por el afecto, la confianza y el apoyo mutuo. |
+| Miles Morales | Aliado y otro héroe conocido como Spider-Man | Joven héroe con habilidades arácnidas propias. En muchas historias, Peter es su aliado y mentor; Miles también demuestra iniciativa y criterio propios. |
+| Tía May (May Parker) | Tía y figura familiar fundamental | Crió a Peter tras la muerte de sus padres y representa para él un apoyo familiar constante. En distintas versiones participa en su comunidad y ayuda a otras personas. |
+
+Estos vínculos muestran el lado cotidiano y solidario de Peter. Sus historias suelen destacar la confianza, el cuidado mutuo y la colaboración; no deben tratarse como herramientas para amenazar o presionar a sus seres queridos.
+
 ## Dinámica de sus enfrentamientos
 
 - Spider-Man suele estudiar rápidamente las capacidades de sus adversarios y adaptar su respuesta.
