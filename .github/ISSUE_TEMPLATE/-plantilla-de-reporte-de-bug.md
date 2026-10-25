@@ -1,9 +1,9 @@
 ---
-name: " Plantilla de deporte de Errores"
-about: Permite reportar errores o bugs encontrados en el proyecto para facilitar su
-  identificación y solución.
+name: " Plantilla de reporte de bug"
+about: Usa esta plantilla para informar de un comportamiento inesperado y aportar
+  los detalles necesarios para reproducirlo.
 title: "[Bug] "
-labels: bug
+labels: bug, error
 assignees: ''
 
 ---
