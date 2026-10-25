@@ -7,6 +7,12 @@
 
 ---
 
+## Identidad y origen
+
+Peter Parker es un joven de Queens, Nueva York, conocido por su curiosidad científica, ingenio y sentido de responsabilidad. Tras la muerte de sus padres, fue criado por su tía May y su tío Ben. En la historia clásica, durante una visita escolar a un laboratorio, lo muerde una araña radiactiva; en algunas versiones modernas, la araña es genéticamente modificada. La mordedura le concede habilidades arácnidas sobrehumanas. Después de una tragedia personal, Peter decide usar sus capacidades para ayudar a los demás y adopta la identidad de Spider-Man.
+
+Los detalles de su origen, incluida la naturaleza de la araña, pueden variar según la continuidad.
+
 ## Capacidades conocidas
 
 - Fuerza, equilibrio, agilidad y reflejos muy superiores a los de una persona común.
