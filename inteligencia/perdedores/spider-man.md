@@ -7,6 +7,12 @@
 
 ---
 
+## Identidad y origen
+
+Peter Parker es un joven de Queens, Nueva York, conocido por su curiosidad científica, ingenio y sentido de responsabilidad. Tras la muerte de sus padres, fue criado por su tía May y su tío Ben. En la historia clásica, durante una visita escolar a un laboratorio, lo muerde una araña radiactiva; en algunas versiones modernas, la araña es genéticamente modificada. La mordedura le concede habilidades arácnidas sobrehumanas. Después de una tragedia personal, Peter decide usar sus capacidades para ayudar a los demás y adopta la identidad de Spider-Man.
+
+Los detalles de su origen, incluida la naturaleza de la araña, pueden variar según la continuidad.
+
 ## Capacidades conocidas
 
 - Fuerza, equilibrio, agilidad y reflejos muy superiores a los de una persona común.
@@ -14,6 +20,24 @@
 - Se desplaza por la ciudad usando telarañas y gran movilidad urbana.
 - Ingenio científico: crea dispositivos y encuentra soluciones sobre la marcha.
 - Gran perseverancia y sentido de responsabilidad; suele priorizar la seguridad de los demás.
+
+## Investigación: poderes y habilidades
+
+### Poderes
+
+- **Fuerza y resistencia aumentadas:** puede levantar objetos pesados y soportar impactos que dejarían fuera de combate a una persona común; sus límites varían según la historia.
+- **Agilidad y reflejos extraordinarios:** reacciona con rapidez, mantiene el equilibrio en superficies estrechas y realiza maniobras acrobáticas.
+- **Adherencia a superficies:** puede trepar y desplazarse por paredes y techos gracias a su capacidad de adherirse a distintas superficies.
+- **Sentido arácnido:** una alerta instintiva le advierte de peligros cercanos. No siempre le indica exactamente qué amenaza se aproxima, pero le permite reaccionar con rapidez.
+- **Percepción y coordinación mejoradas:** sus sentidos y coordinación contribuyen a que pueda esquivar ataques y moverse con precisión.
+
+### Habilidades y equipo
+
+- **Lanzatelarañas:** en muchas versiones son dispositivos diseñados por Peter Parker que disparan una sustancia adhesiva ficticia. Algunas continuidades presentan telarañas orgánicas.
+- **Ingenio científico:** aplica conocimientos de ciencia e ingeniería para crear equipo y resolver problemas.
+- **Improvisación y estrategia:** observa el entorno, identifica oportunidades y adapta su enfoque durante situaciones cambiantes.
+- **Combate acrobático:** combina movilidad, reflejos y telarañas para mantener distancia, esquivar y contener a sus adversarios.
+- **Responsabilidad y empatía:** su prioridad suele ser proteger a otras personas, incluso cuando eso limita sus opciones.
 
 ## Principales enemigos
 
@@ -25,6 +49,16 @@
 | Mysterio | Quentin Beck | Maestro de ilusiones y efectos teatrales. Sus apariciones desafían la percepción y el criterio de Spider-Man, más que su fuerza física. |
 | Sandman | Flint Marko | Puede transformar su cuerpo en arena y adoptar distintas formas. A veces es un adversario y otras un personaje con motivaciones más complejas. |
 | Buitre | Adrian Toomes | Inventor y acróbata aéreo que utiliza equipo de vuelo ficticio. Es uno de los rivales recurrentes de Spider-Man. |
+
+## Aliados y personas cercanas
+
+| Persona | Relación con Peter Parker | Información relevante |
+| ------- | ------------------------- | --------------------- |
+| Mary Jane Watson | Pareja, amiga cercana o confidente, según la etapa | Actriz y modelo en varias versiones, además de una persona independiente y decidida. Su relación con Peter se caracteriza por el afecto, la confianza y el apoyo mutuo. |
+| Miles Morales | Aliado y otro héroe conocido como Spider-Man | Joven héroe con habilidades arácnidas propias. En muchas historias, Peter es su aliado y mentor; Miles también demuestra iniciativa y criterio propios. |
+| Tía May (May Parker) | Tía y figura familiar fundamental | Crió a Peter tras la muerte de sus padres y representa para él un apoyo familiar constante. En distintas versiones participa en su comunidad y ayuda a otras personas. |
+
+Estos vínculos muestran el lado cotidiano y solidario de Peter. Sus historias suelen destacar la confianza, el cuidado mutuo y la colaboración; no deben tratarse como herramientas para amenazar o presionar a sus seres queridos.
 
 ## Dinámica de sus enfrentamientos
 
