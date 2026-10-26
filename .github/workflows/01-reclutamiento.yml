@@ -7,5 +7,18 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "El agente se presenta a la empresa"
-              run: echo "Soy Lex Luthor, y estoy listo para trabajar en la empresa"
+              run: echo "Soy {{ github.actor }}, y estoy listo para trabajar en la empresa"
 
+            - name: "Reporte de identidad del agente"
+              run: |
+                echo "Reporte de Identidad del Agente"
+                echo "-------------------------------"
+                echo "Nombre clave: {{ github.actor }}"
+                echo "-------------------------------"
+                echo "Repositorios del agente: {{ github.repository }}"
+                echo "Operaciones recientes del agente: {{ github.event_name }}"
+                echo "Metadata del evento: {{ toJson(github.event) }}"
+                echo "-------------------------------"
+                echo "{{ toJson(github) }}"
+                echo "-------------------------------"
+                echo "Fin del reporte de identidad del agente"
