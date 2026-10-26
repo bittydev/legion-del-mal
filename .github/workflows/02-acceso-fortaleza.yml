@@ -1,15 +1,33 @@
 name: "Acceso a la Fortaleza"
 
-on: push
+on: 
+    workflow_dispatch:
 
 jobs:
     acceso-fortaleza:
         runs-on: ubuntu-latest
         steps:
             - name: El agente llega a la fortaleza
-              run: echo "El agente ${{ github.actor }} ha llegado a la fortaleza"
+              run: |
+                echo "El agente ${{ github.actor }} ha llegado a la fortaleza"
                 echo ""
                 echo "Buscar archivos de configuración en el repositorio"
                 ls -la
                 echo ""
                 echo "Verificar la presencia de archivos de configuración"
+
+            - name: "Brainiac desbloquea la fortaleza"
+              uses: actions/checkout@v3
+
+            - name: "Verificar archivos de configuración"
+              run: |
+                echo "Buscando archivos de configuración en el repositorio..."
+                ls -la
+                echo ""
+                echo "Planes:"
+                ls -la planes/
+                echo ""
+                echo "Villanos:"
+                ls -la villanos/
+                echo "Inteligencia:"
+                ls -la inteligencia/
