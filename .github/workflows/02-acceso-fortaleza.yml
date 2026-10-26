@@ -1,0 +1,15 @@
+name: "Acceso a la Fortaleza"
+
+on: push
+
+jobs:
+    acceso-fortaleza:
+        runs-on: ubuntu-latest
+        steps:
+            - name: El agente llega a la fortaleza
+              run: echo "El agente ${{ github.actor }} ha llegado a la fortaleza"
+                echo ""
+                echo "Buscar archivos de configuración en el repositorio"
+                ls -la
+                echo ""
+                echo "Verificar la presencia de archivos de configuración"
