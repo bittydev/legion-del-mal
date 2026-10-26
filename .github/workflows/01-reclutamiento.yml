@@ -22,3 +22,25 @@ jobs:
                 echo "${{ toJson(github) }}"
                 echo "-------------------------------"
                 echo "Fin del reporte de identidad del agente"
+
+            - name: "Capacidades del agente"
+              run: |
+                echo "Capacidades del Agente"
+                echo "----------------------"
+                uname -a
+                echo "Sistema operativo: ${{ runner.os }}"
+                echo "Versión del sistema operativo: ${{ runner.os_version }}"
+                echo "Arquitectura del sistema: ${{ runner.arch }}"
+                echo "Versión de Node.js: ${{ runner.node_version }}"
+                echo "Versión de Python: ${{ runner.python_version }}"
+                echo "Versión de Java: ${{ runner.java_version }}"
+                echo "----------------------"
+                echo "Fin del reporte de capacidades del agente"
+
+            - name: "Reconocimiento del terreno del agente"
+              run: |
+                echo "Reconocimiento del Terreno del Agente"
+                echo "-------------------------------------"
+                ls /
+                echo "-------------------------------------"
+                echo "Fin del reconocimiento del terreno del agente"
