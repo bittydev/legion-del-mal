@@ -35,5 +35,5 @@ jobs:
           echo "¿Ejecutar tests?: ${{ github.event.inputs.ejecutar_tests }}"
           echo "Tag de versión: ${{ github.event.inputs.version_tag }}"
           echo "================================"
-          cowsay -f atom "Despliegue en ambiente ${{ github.event.inputs.ambiente }}"
+          cowsay -f deamon "Despliegue en ambiente ${{ github.event.inputs.ambiente }}"
           echo "================================"
