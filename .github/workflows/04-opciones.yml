@@ -26,8 +26,14 @@ jobs:
   despliegue:
     runs-on: ubuntu-latest
     steps:
+      - name: Mensaje de bienvenida
+        run: sudo apt-get update && sudo apt-get install -y cowsay
+
       - name: Mostrar valores seleccionados
         run: |
           echo "El ambiente seleccionado es: ${{ github.event.inputs.ambiente }}"
           echo "¿Ejecutar tests?: ${{ github.event.inputs.ejecutar_tests }}"
           echo "Tag de versión: ${{ github.event.inputs.version_tag }}"
+          echo "================================"
+          cowsay -f atom "Despliegue en ambiente ${{ github.event.inputs.ambiente }}"
+          echo "================================"
