@@ -1,0 +1,76 @@
+name: Crear release desde tag
+
+on:
+  push:
+    tags:
+      - '**'
+
+permissions:
+  contents: write
+
+jobs:
+  crear-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener historial completo y tags
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar resumen de la version
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          previous_tag="$(git describe --tags --abbrev=0 "${TAG}^" 2>/dev/null || true)"
+          if [[ -n "$previous_tag" ]]; then
+            range="${previous_tag}..${TAG}"
+            baseline="$previous_tag"
+            commits="$(git log --format='- `%h` %s (%an)' "$range")"
+          else
+            range="$TAG"
+            baseline="$(git hash-object -t tree -w --stdin </dev/null)"
+            commits="$(git log --format='- `%h` %s (%an)' "$TAG")"
+          fi
+
+          {
+            printf '# Release %s\n\n' "$TAG"
+            if [[ -n "$previous_tag" ]]; then
+              printf 'Cambios incluidos desde `%s` hasta `%s`.\n\n' "$previous_tag" "$TAG"
+            else
+              printf 'Primer release etiquetado de este repositorio.\n\n'
+            fi
+
+            printf '## Historial de commits\n\n'
+            if [[ -n "$commits" ]]; then
+              printf '%s\n\n' "$commits"
+            else
+              printf 'No hay commits nuevos en este rango.\n\n'
+            fi
+
+            printf '## Resumen de archivos modificados\n\n'
+            git diff --stat "$baseline" "$TAG"
+            printf '\n## Archivos\n\n'
+            changed_files="$(git diff --name-status "$baseline" "$TAG")"
+            if [[ -n "$changed_files" ]]; then
+              printf '```\n%s\n```\n\n' "$changed_files"
+            else
+              printf 'No se detectaron archivos modificados.\n\n'
+            fi
+
+            printf '## Logs de GitHub Actions\n\n'
+            printf '[Ver logs de esta ejecucion](https://github.com/%s/actions/runs/%s).\n' \
+              "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID"
+          } > release-notes.md
+
+      - name: Crear o actualizar el release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "$TAG" --notes-file release-notes.md
+          else
+            gh release create "$TAG" --verify-tag --title "$TAG" --notes-file release-notes.md
+          fi

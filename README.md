@@ -78,6 +78,17 @@ La Liga de la Justicia y los Vengadores han formado una alianza. Nuestros expedi
 - 🔴 En planificación
 - 🔴 En desarrollo
 
+## Releases automáticos
+
+Al publicar un tag, por ejemplo `v1.0.0`, el workflow `08-tag-to-release.yml` crea o actualiza el release correspondiente. Las notas incluyen los commits y archivos modificados desde el tag anterior (o el historial inicial si es el primer release), junto con un enlace a los logs de la ejecución en GitHub Actions.
+
+Para publicar un tag local:
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
 ---
 
 _Este repositorio es propiedad de la Legión del Mal. Acceso no autorizado será castigado con severidad. Si tienes acceso a este repositorio, eres de los nuestros o Brainiac no está trabajando._
