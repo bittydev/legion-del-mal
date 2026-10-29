@@ -1,0 +1,33 @@
+name: Selección de Opciones
+
+on:
+  workflow_dispatch:
+    inputs:
+      ambiente:
+        description: 'Selecciona el entorno de despliegue'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - development
+          - staging
+          - production
+      ejecutar_tests:
+        description: '¿Ejecutar pruebas unitarias?'
+        required: true
+        default: true
+        type: boolean
+      version_tag:
+        description: 'Tag de la versión (ej. v1.2.0)'
+        required: false
+        type: string
+
+jobs:
+  despliegue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar valores seleccionados
+        run: |
+          echo "El ambiente seleccionado es: ${{ github.event.inputs.ambiente }}"
+          echo "¿Ejecutar tests?: ${{ github.event.inputs.ejecutar_tests }}"
+          echo "Tag de versión: ${{ github.event.inputs.version_tag }}"
