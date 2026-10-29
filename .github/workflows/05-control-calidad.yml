@@ -1,4 +1,4 @@
-name: Cobtrol de Calidad
+name: Control de Calidad
 on: 
     push:
         branches: [main]

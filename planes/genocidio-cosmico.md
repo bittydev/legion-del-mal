@@ -32,3 +32,9 @@ La prueba definitiva no es quién tiene más poder, sino quién puede cambiar de
 ## Nota del consejo
 
 > «Llamar “equilibrio” a la destrucción no la vuelve justa». — Acta del Consejo de la Legión
+
+## Plan de escape
+
+- **Abortar la amenaza:** detener la simulación ficticia y dejar claro que ninguna persona ni población será atacada.
+- **Asegurar una salida:** los héroes acompañan a los personajes que lo necesiten hasta un lugar seguro, sin bloquear las rutas de evacuación.
+- **Pedir ayuda:** si la situación deja de ser ficción o alguien está en peligro, avisar a los servicios de emergencia y seguir sus indicaciones.

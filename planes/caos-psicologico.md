@@ -44,3 +44,9 @@ El Bromista anuncia un espectáculo de acertijos en un teatro vacío. Cada pista
 ## Nota del Bromista
 
 > «La confusión dura un acto. El confeti, por desgracia, dura hasta que alguien encuentra la escoba».
+
+## Plan de escape
+
+- **Si alguien se siente incómodo:** detener el espectáculo, explicar que todo era ficción y ayudarle a salir del teatro.
+- **Si surge una emergencia real:** avisar al personal del lugar y a los servicios de emergencia; no bloquear salidas ni intentar resolverla por cuenta propia.
+- **Al terminar:** recoger la utilería y salir del recinto por las rutas públicas señalizadas.

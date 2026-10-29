@@ -52,3 +52,9 @@ Los héroes desactivan la proyección ficticia y abren un corredor seguro para q
 ## Nota del Consejo
 
 > «Un universo que obedece por obligación no está unido; solo está en silencio».
+
+## Plan de escape
+
+- **Abandonar la misión:** Darkseid cancela la proyección y renuncia a someter a los habitantes de cualquier mundo.
+- **Guiar a los personajes a un lugar seguro:** los héroes habilitan una salida pública y despejada para quienes quieran retirarse.
+- **Resolver la situación:** avisar a los responsables del lugar si hay una emergencia y colaborar con ellos; no ocultarse ni impedir la ayuda.

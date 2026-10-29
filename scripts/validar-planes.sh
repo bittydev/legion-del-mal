@@ -49,10 +49,10 @@ fi
 echo ""
 
 # ──────────────────────────────────────────
-# Regla #3: Códigos de lanzamiento
+# Regla #2: Códigos de lanzamiento
 # ──────────────────────────────────────────
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "📋 Regla #3: Verificando códigos de lanzamiento..."
+echo "📋 Regla #2: Verificando códigos de lanzamiento..."
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 # Buscar archivos .env rastreados por git
@@ -72,14 +72,14 @@ fi
 echo ""
 
 # ──────────────────────────────────────────
-# Verificar fichas de villanos
+# Regla #3: Verificar fichas de villanos
 # ──────────────────────────────────────────
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "📋 Verificando fichas de villanos..."
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "📋 Regla #3: Verificando fichas de villanos..."
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━══"
 
-if ls villanos/*.yml 1>/dev/null 2>&1; then
-  for ficha in villanos/*.yml; do
+if ls miembros/*.yml 1>/dev/null 2>&1; then
+  for ficha in miembros/*.yml; do
     NOMBRE=$(grep "^nombre:" "$ficha" | head -1 | sed 's/nombre: *//;s/"//g')
     if [ -z "$NOMBRE" ]; then
       NOMBRE=$(basename "$ficha" .yml)
