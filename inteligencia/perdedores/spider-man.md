@@ -74,6 +74,10 @@ Estos vínculos muestran el lado cotidiano y solidario de Peter. Sus historias s
 - Mysterio permite construir una trama de misterio, mientras que Sandman y el Buitre ofrecen desafíos visuales y de acción.
 - Para mantener el tono superheroico, los conflictos pueden resolverse con ingenio, cooperación y captura ficticia, evitando daños a civiles.
 
+## Estrategia recomendada
+
+Evitar una confrontación directa: Spider-Man combina agilidad, sentido arácnido e improvisación, y su prioridad es proteger a las personas. Para una historia, plantear un desafío ficticio y controlado que se resuelva con ingenio o cooperación; mantener a los civiles fuera del conflicto y ofrecer una salida segura para todos.
+
 ## Nota del expediente
 
 > «Puede que no sepa quién está detrás de cada máscara, pero casi siempre encuentra la manera de salvar el día». — Informe de la Legión

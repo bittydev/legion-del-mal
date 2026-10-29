@@ -100,17 +100,17 @@ fi
 echo ""
 
 # ──────────────────────────────────────────
-# Verificar expedientes de inteligencia
+# Regla #4: Verificar expedientes de inteligencia
 # ──────────────────────────────────────────
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "📋 Verificando inteligencia sobre héroes..."
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "📋 Regla #4: Verificando inteligencia sobre héroes..."
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━══"
 
-if ls inteligencia/*.md 1>/dev/null 2>&1; then
-  TOTAL_EXPEDIENTES=$(ls inteligencia/*.md | wc -l)
+if ls inteligencia/perdedores/*.md 1>/dev/null 2>&1; then
+  TOTAL_EXPEDIENTES=$(ls inteligencia/perdedores/*.md | wc -l)
   echo "  📁 $TOTAL_EXPEDIENTES expedientes de héroes en la base de datos."
 
-  for expediente in inteligencia/*.md; do
+  for expediente in inteligencia/perdedores/*.md; do
     HEROE=$(basename "$expediente" .md)
     if ! grep -q "## Estrategia recomendada" "$expediente"; then
       echo "  ⚠️  $HEROE — Falta la estrategia recomendada."
