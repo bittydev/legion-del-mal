@@ -1,0 +1,18 @@
+name: Cobtrol de Calidad
+on: 
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs: 
+    RevisionCalidad:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout del repositorio
+              uses: actions/checkout@v4
+            - name: Validar planes de control de calidad
+              run: |
+              chmod +x scripts/validar-planes.sh
+              ./scripts/validar-planes.sh
